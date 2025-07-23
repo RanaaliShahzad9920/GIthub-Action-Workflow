@@ -1,0 +1,13 @@
+name: Ali Shahzad
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubunto-latest
+
+    steps:
+      - name: Greeting
+        run: echo "Works Flow Actions"

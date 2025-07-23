@@ -9,5 +9,5 @@ jobs:
     runs-on: ubunto-latest
 
     steps:
-      - name: Greeting
+      - name: Greetings
         run: echo "Works Flow Actions"
